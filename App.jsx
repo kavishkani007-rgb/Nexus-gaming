@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import { AudioProvider } from '../context/AudioContext.jsx';
-import { Navbar } from '../components/Navbar.jsx';
-import { Footer } from '../components/Footer.jsx';
-import { CustomCursor } from '../components/CustomCursor.jsx';
-import { LoadingScreen } from '../components/LoadingScreen.jsx';
+import { AudioProvider } from './context/AudioContext.jsx';
+import { Navbar } from './components/Navbar.jsx';
+import { Footer } from './components/Footer.jsx';
+import { CustomCursor } from './components/CustomCursor.jsx';
+import { LoadingScreen } from './components/LoadingScreen.jsx';
 
-import { Home } from '../pages/Home.jsx';
-import { Games } from '../pages/Games.jsx';
-import { GameDetails } from '../pages/GameDetails.jsx';
-import { Categories } from '../pages/Categories.jsx';
-import { Leaderboard } from '../pages/Leaderboard.jsx';
-import { Community } from '../pages/Community.jsx';
-import { About } from '../pages/About.jsx';
-import { NotFound } from '../pages/NotFound.jsx';
+import { Home } from './pages/Home.jsx';
+import { Games } from './pages/Games.jsx';
+import { GameDetails } from './pages/GameDetails.jsx';
+import { Categories } from './pages/Categories.jsx';
+import { Leaderboard } from './pages/Leaderboard.jsx';
+import { Community } from './pages/Community.jsx';
+import { About } from './pages/About.jsx';
+import { NotFound } from './pages/NotFound.jsx';
 
 // Helper component to reset scroll position on route changes
 const ScrollToTop = () => {

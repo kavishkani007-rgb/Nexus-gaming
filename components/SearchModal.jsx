@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';h
 import { Search, X, Star, ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { GAMES_DATA } from '../data/games';
